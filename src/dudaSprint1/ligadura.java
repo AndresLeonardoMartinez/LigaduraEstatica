@@ -1,0 +1,15 @@
+package dudaSprint1;
+
+public class ligadura {
+
+	public static void main(String[] args) {
+		D d = new D();
+		B b= new B();
+		d.f(b);
+		A a = b;
+		d.f(a);	
+/////////////////////////////////////////////////////////////////////////
+		//La ligadura respecto a los argumentos es estática
+/////////////////////////////////////////////////////////////////////////		
+	}
+}
